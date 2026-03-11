@@ -37,3 +37,53 @@ SmartBinX addresses this problem by using Artificial Intelligence to automatical
 5. The result and material analysis are displayed through a Streamlit web interface.
 
 ## 📂 Project Structure
+
+SmartBinX_Project
+│
+├── data/                # Dataset used for training
+├── models/              # Trained machine learning models
+├── notebooks/           # Jupyter notebooks for experiments
+├── streamlit_app.py     # Streamlit web application
+├── scraper_online.py    # Data scraping script
+├── smartbinx_full.db    # SQLite database
+├── requirements.txt     # Required Python libraries
+└── README.md            # Project documentation
+## ▶️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/SmartBinX-Revolutionizing-EWaste-Management-Generative-AI.git
+
+2️⃣ Install Required Libraries
+pip install -r requirements.txt
+
+3️⃣ Run the Streamlit Application
+streamlit run streamlit_app.py
+
+4️⃣ Upload Waste Image
+Upload an image of a waste item and the system will classify it automatically.
+
+📊 Results
+
+The SmartBinX system successfully identifies electronic waste using image classification techniques. The AI model provides accurate predictions and additional insights about the material composition of electronic devices, helping improve recycling processes.
+
+🔮 Future Scope
+	•	Integration with IoT-based smart bins
+	•	Mobile application development
+	•	Cloud deployment
+	•	Support for additional waste categories
+	•	Improved model accuracy with larger datasets
+
+👨‍💻 Authors
+	•	Shashank S
+	•	Adarsh Babasab Ugare
+	•	Vaishak N Naik
+	•	Harsha C R
+
+B.E. Artificial Intelligence and Machine Learning
+K.S. Institute of Technology, Bengaluru
+
+📚 Academic Project
+
+This project was developed as part of the Final Year Engineering Project (B.E. AIML).
